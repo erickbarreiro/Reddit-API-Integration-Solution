@@ -17,7 +17,7 @@ To run this solution, you'll need:
 
 ## Setup
 1. **Clone the Repository**
-   git clone https://yourrepositoryurl.com/RedditAPI.git
+   git clone [https://github.com/erickbarreiro/Reddit-API-Integration-Solution.git]
    cd RedditAPI
 
 ##App Settings
@@ -26,7 +26,6 @@ To run this solution, you'll need:
     Update the ConnectionStrings section with your SQL Server instance.
 
 ##json
-
 "ConnectionStrings": {
   "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=RedditDb;Trusted_Connection=True;"
 }
