@@ -20,34 +20,34 @@ To run this solution, you'll need:
    git clone (https://github.com/erickbarreiro/Reddit-API-Integration-Solution.git)
    cd RedditAPI
 
-##App Settings
+## App Settings
 
     Navigate to appsettings.json.
     Update the ConnectionStrings section with your SQL Server instance.
 
-##json
+## json
 "ConnectionStrings": {
   "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=RedditDb;Trusted_Connection=True;"
 }
 
-##Database Migration
+## Database Migration
 
     Open a command prompt or terminal in the project directory.
     Run the following commands to apply the database migrations.
 
 bash dotnet ef database update
 
-##Running the Application
+## Running the Application
 
     Start the Application
         You can run the application directly using Visual Studio or through the command line:
 
     bash dotnet run
 
-##Access the API
+## Access the API
         Once the application is running, navigate to https://localhost:5001/swagger to view the Swagger UI and interact with the API.
 
-##Testing
+## Testing
 
     Run integration tests and unit tests by executing:
 
@@ -55,14 +55,14 @@ bash dotnet ef database update
 
     dotnet test
 
-##Using the API
+## Using the API
 
     Add a Subreddit
         Use the POST endpoint /subreddit to add a new subreddit to track.
     Fetch Posts
         Use the GET endpoint /posts/{subredditName} to fetch posts from a specific subreddit.
 
-##Dockerization
+## Dockerization
 
     This project includes Docker support. To build and run the application in a Docker container, use:
 
@@ -70,11 +70,11 @@ bash dotnet ef database update
 
     docker-compose up --build
 
-##Logging
+## Logging
 
     The application uses built-in logging mechanisms provided by ASP.NET Core. Check the console or configured log output destinations for runtime information.
 
-##Contributing
+## Contributing
 
 Feel free to fork the repository, make changes, and submit pull requests. Contributions are welcome!
 License
