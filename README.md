@@ -17,7 +17,7 @@ To run this solution, you'll need:
 
 ## Setup
 1. **Clone the Repository**
-   git clone [https://github.com/erickbarreiro/Reddit-API-Integration-Solution.git]
+   git clone (https://github.com/erickbarreiro/Reddit-API-Integration-Solution.git)
    cd RedditAPI
 
 ##App Settings
